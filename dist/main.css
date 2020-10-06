@@ -25,11 +25,14 @@ body {
   margin: 300px auto;
   max-width: 600px;
   padding: 15px;
-  height: 450px;
+  height: 400px;
   background-color: #ecf0e2f2;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
   text-align: center;
   position: relative;
   left: 55px;
+  display: grid;
+  grid-template-rows: 330px auto;
 }
 
 h1 {
@@ -49,4 +52,27 @@ h1::after {
 
 p {
   font-size: 18px;
+}
+
+.nav {
+  max-height: 10px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.tab {
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  font-family: "Raleway";
+  background-color: #74451d;
+  color: white;
+}
+
+.tab:hover {
+  background-color: #3893a2;
+}
+
+.tab:first-child {
+  border-right: 1px solid #ecf0e2f2;
 }
