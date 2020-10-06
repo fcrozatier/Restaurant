@@ -1,0 +1,52 @@
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("./restaurant.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Antic Didone", serif;
+  font-size: 1rem;
+  overflow: hidden;
+}
+
+#content {
+  margin: 300px auto;
+  max-width: 600px;
+  padding: 15px;
+  height: 450px;
+  background-color: #ecf0e2f2;
+  text-align: center;
+  position: relative;
+  left: 55px;
+}
+
+h1 {
+  position: relative;
+  margin-bottom: 80px;
+}
+
+h1::after {
+  content: "";
+  width: 300px;
+  border-bottom: 1px solid rgb(0, 0, 0);
+  display: block;
+  margin-top: 40px;
+  position: absolute;
+  left: 130px;
+}
+
+p {
+  font-size: 18px;
+}
