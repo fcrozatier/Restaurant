@@ -1,5 +1,5 @@
 # Restaurant
 
-This a vanilla JS project. Check it out there
+This a vanilla JS project. 
 
-[](https://fcrozatier.github.io/Restaurant/)
+Check it out [there](https://fcrozatier.github.io/Restaurant/)
